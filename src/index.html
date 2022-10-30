@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="button-wrapper">
+        <button type="button" id="start" class="button button-one">
+          Shuffle and start
+        </button>
+        <button type="button" id="pause" class="button">Stop</button>
+        <button type="button" id="save" class="button">Save</button>
+        <button type="button" id="result" class="button">Result</button>
+      </div>
+
+      <!-- <div class="watch">
+        <p id="watch">00:00</p>
+      </div> -->
+     <div class="timer">
+    <div id="mins"></div><div id="secs"></div>
+    </div>
+      <div class="canvas">
+        <canvas id="canvas" width="300" height="300"></canvas>
+      </div>
+
+      <p class="moves button">Moves: <span id="countMoves">0</span></p>
+    </div>
+
+
+  </body>
+</html>
