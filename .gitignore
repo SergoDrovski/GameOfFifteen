@@ -1,1 +1,10 @@
 /node_modules/
+/src/
+/app/
+.babelrc
+.editorconfig
+.stylelintrc
+package.json
+package-lock.json
+webpack.config.js
+
